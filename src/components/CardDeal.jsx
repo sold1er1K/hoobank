@@ -6,7 +6,7 @@ const CardDeal = () => (
   <section className={layout.section}>
     <div className={layout.sectionInfo}>
       <h2 className={styles.heading2}>
-      <div className="flex justify-center md:inline">Find a better card deal</div> <br className="md:block hidden"/>
+      <div className="flex justify-center md:inline">Find a better card deal</div><br className="md:block hidden"/>
       <div className="flex justify-center md:inline">in few easy steps.</div>
       </h2>
       <p className={`${styles.paragraph} max-w-[470px] mt-5`}>
@@ -16,7 +16,6 @@ const CardDeal = () => (
     </div>
     <div className={layout.sectionImg}>
       <img src={card} alt="card" className="w-[100%] h-[100%]"/>
-
     </div>
   </section>
 )
